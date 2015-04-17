@@ -9,7 +9,7 @@ npm install
 bower install
 ```
 
-Deploy:
+Deploy to ```gh-pages``` branch:
 
 ```
 gulp deploy
