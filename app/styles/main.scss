@@ -1,8 +1,102 @@
-$icon-font-path: '../fonts/';
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,200,300,400);
+
+@import 'variables';
 
 // bower:scss
 @import "bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
+
+
+#header {
+  margin-bottom: 25px;
+  .col-md-6:nth-child(1){
+    text-align: left;
+  }
+  .col-md-6:nth-child(2){
+    text-align: right;
+  }
+}
+
+#hero {
+  .col-md-6:nth-child(1) {
+    padding: 20px 20px;
+  }
+  img {
+    transform: skewX(-10deg);
+  }
+
+}
+
+.img-border {
+  width: 100%;
+  margin: 20px 0;
+  border: 5px solid #d9d1d1;
+  border-radius: 2px;
+}
+
+dl {
+  text-align: left;
+  margin-bottom: 10px;
+  dt {
+    float: left;
+    display: block;
+    margin-right: 10px;
+    text-align: right;
+  }
+  dd {
+    color: gray;
+  }
+}
+
+#description {
+  h2 {
+    color: #333;
+  }
+  p {
+    font-weight: 300;
+    color: gray;
+  }
+  img {
+    @extend .img-border;
+  }
+}
+
+#attendance {
+  h2 {
+    color: #333;
+  }
+  p {
+    font-weight: 300;
+    color: gray;
+  }
+  img {
+    @extend .img-border;
+  }
+}
+
+#prizes {
+  h2 {
+    color: #333;
+  }
+  p {
+    font-weight: 300;
+    color: gray;
+  }
+  img {
+    padding: 20px 0;
+  }
+}
+
+#agenda {
+  h3 {
+    padding-bottom: 20px;
+  }
+  padding-bottom: 20px;
+}
+
+#agenda-title {
+  text-align: center;
+}
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -14,80 +108,131 @@ $icon-font-path: '../fonts/';
 /* Space out content a bit */
 body {
   padding-top: 20px;
-  padding-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
+h1 {
+  font-size: 2.25em;
+  font-weight: 300;
+}
+h2 {
+  margin-bottom: 0.6em;
+  font-weight: 300;
+}
+h3 {
+  font-size: 1.85em;
+  font-weight: 100;
+}
+sup {
+  font-size: 0.6em;
+  position: relative;
+  top: -0.6em;
+}
+small {
+  font-size: 0.8em;
+}
+
+p {
+  font-weight: 200;
+  line-height: 1.5em;
+  margin-bottom: 1.8em;
+}
+
+section {
+  &.tiled {
+    @extend .tiled-background;
+  }
+  &.blackened {
+    color: $footer-fg-color;
+    background-color: $footer-bg-color;
+  }
+  &.grayed {
+    background-color: $descr-bg-color;
+  }
+}
+
 .footer {
-  padding-left: 15px;
-  padding-right: 15px;
-}
+  padding: 25px 0;
+  img {
+    opacity: 0.4;
+  }
+  #credit {
+    color: rgba(255,255,255,0.4);
+    font-size: 11px;
+    line-height: 2em;
+    padding-left: 10px;
+    font-weight: 200;
 
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-
-  /* Make the masthead heading the same height as the navigation */
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
+  }
+  ul.footer-social {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline;
+      a {
+        font-size: 20px;
+        padding-left: 15px;
+        color: rgba(255,255,255,0.4);
+      }
+    }
   }
 }
 
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
 
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-  .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-  }
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-  p + h4 {
-    margin-top: 28px;
-  }
-}
-
-/* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 1024px;
   }
+}
 
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  #agenda {
+    .col-md-5 {
+      width: 50% !important;
+      float: left;
+    }
   }
-
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
+  #header {
+    .col-md-6 {
+      width: 50% !important;
+      float: left;
+      text-align: right;
+    }
   }
+  #hero, #description, #prizes, #attendance {
+    img {
+      display: none;
+    }
+  }
+  #footer {
+    .col-md-6 {
+      text-align: center !important;
+    }
+  }
+}
 
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  #agenda {
+    .col-md-5 {
+      width: 50% !important;
+      float: left;
+    }
+  }
+  #header {
+    .col-md-6:nth-child(1){
+      text-align: center;
+      padding-bottom: 10px;
+    }
+    .col-md-6:nth-child(2){
+      text-align: center;
+    }
+  }
+  #hero, #description, #prizes, #attendance {
+    img {
+      display: none;
+    }
   }
 }
