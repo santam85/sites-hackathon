@@ -24,9 +24,8 @@
   }
 
   // Main
-  _loadJSON('scripts/content.json', function (sections) {
+  _loadJSON('content.json', function (sections) {
     Object.keys(sections).forEach(function(section){
-      console.log(section);
       var tmpl = Handlebars.compile(document.getElementById(section + '-tmpl').innerHTML);
       document.getElementById(section).innerHTML = tmpl(sections[section]);
     });
