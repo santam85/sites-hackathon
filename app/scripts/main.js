@@ -1,10 +1,4 @@
-/**
- * TODO
- * - GA via gulpfile
- * - implement Mark's responsive images
- * - reduce bootstrap junk
- *
- */
+'use strict';
 
 (function(){
 
@@ -20,7 +14,7 @@
     imgAlt  : 'BBsers hacking a bank'
   };
 
-  var templateHero = Handlebars.compile($("#hero-tmpl").html());
+  var templateHero = Handlebars.compile($('#hero-tmpl').html());
   $('#hero').append(templateHero(hero));
 
   // -------------------------------------------------------------------------------------------------------------------
@@ -32,7 +26,7 @@
     imgAlt  : 'BBsers hacking a bank'
   };
 
-  var templateDescription = Handlebars.compile($("#description-tmpl").html());
+  var templateDescription = Handlebars.compile($('#description-tmpl').html());
   $('#description').append(templateDescription(description));
 
   // -------------------------------------------------------------------------------------------------------------------
@@ -44,7 +38,7 @@
     imgAlt  : 'BBsers hacking a bank'
   };
 
-  var templateAttendance = Handlebars.compile($("#attendance-tmpl").html());
+  var templateAttendance = Handlebars.compile($('#attendance-tmpl').html());
   $('#attendance').append(templateAttendance(attendance));
 
   // -------------------------------------------------------------------------------------------------------------------
@@ -56,14 +50,14 @@
     imgAlt  : 'prize!'
   };
 
-  var templatePrizes = Handlebars.compile($("#prizes-tmpl").html());
+  var templatePrizes = Handlebars.compile($('#prizes-tmpl').html());
   $('#prizes').append(templatePrizes(prizes));
 
   // -------------------------------------------------------------------------------------------------------------------
 
   var agendaTitle = 'Backbase Hackathon Agenda';
 
-  var templateAgendaTitle = Handlebars.compile($("#agenda-title-tmpl").html());
+  var templateAgendaTitle = Handlebars.compile($('#agenda-title-tmpl').html());
   $('#agenda-title').append(templateAgendaTitle(agendaTitle));
 
   // -------------------------------------------------------------------------------------------------------------------
@@ -155,7 +149,7 @@
     }
   };
 
-  var templateAgenda = Handlebars.compile($("#agenda-tmpl").html());
+  var templateAgenda = Handlebars.compile($('#agenda-tmpl').html());
   $('#agenda').append(templateAgenda(agenda));
 
   // -------------------------------------------------------------------------------------------------------------------
@@ -166,13 +160,13 @@
           'Don’t waste time! Get this form filled in as soon as possible!'
   };
 
-  var templateApplyNow = Handlebars.compile($("#apply-now-tmpl").html());
+  var templateApplyNow = Handlebars.compile($('#apply-now-tmpl').html());
   $('#apply-now').append(templateApplyNow(applyNow));
 
   // -------------------------------------------------------------------------------------------------------------------
   var credit = '© 2015 Backbase. All rights reserved.';
 
-  var templateCredit = Handlebars.compile($("#credit-tmpl").html());
+  var templateCredit = Handlebars.compile($('#credit-tmpl').html());
   $('#credit').append(templateCredit(credit));
 
   // -------------------------------------------------------------------------------------------------------------------
@@ -181,7 +175,7 @@
     {
       href      : 'http://www.facebook.com/pages/Backbase/352288013495',
       title     : 'Facebook',
-      faClass   : "fa fa-facebook"
+      faClass   : 'fa fa-facebook'
     },
     {
       href      : 'http://twitter.com/backbase',
@@ -200,7 +194,7 @@
     }
   ];
 
-  var templateSocialLinks = Handlebars.compile($("#footer-social-tmpl").html());
+  var templateSocialLinks = Handlebars.compile($('#footer-social-tmpl').html());
   $('#footer-social').append(templateSocialLinks(socialLinks));
 
 })();

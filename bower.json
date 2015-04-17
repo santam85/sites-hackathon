@@ -2,8 +2,9 @@
   "name": "bb-hackathon-2015",
   "private": true,
   "dependencies": {
-    "bootstrap-sass-official": "~3.3.1",
     "fontawesome": "~4.3.0",
-    "handlebars": "~3.0.0"
+    "handlebars": "~3.0.0",
+    "bootstrap-css-only": "~3.3.4",
+    "jquery": "~2.1.3"
   }
 }
