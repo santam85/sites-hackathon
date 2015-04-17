@@ -31,6 +31,12 @@
     }
   }
 
+  #hero {
+    p {
+      padding: 20px 20px;
+    }
+  }
+
   .footer {
     img {
       display: none;
@@ -75,6 +81,12 @@
 
   #hero, #description, #prizes, #attendance  {
     text-align: center;
+  }
+
+  #hero {
+    p {
+      padding: 20px 20px;
+    }
   }
 
   #apply {
