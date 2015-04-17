@@ -112,6 +112,12 @@ gulp.task('build', ['jshint', 'html', 'images', 'extras'], function () {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
+gulp.task('deploy', ['build'], function () {
+  return gulp.src('dist')
+    .pipe($.subtree({message: 'Site updated at ' + new Date()}))
+    .pipe($.clean())
+});
+
 gulp.task('default', ['clean'], function () {
   gulp.start('build');
 });

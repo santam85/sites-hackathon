@@ -27,6 +27,7 @@
     "wiredep": "^2.0.0"
   },
   "dependencies": {
-    "gulp-ga": "0.0.3"
+    "gulp-ga": "0.0.3",
+    "gulp-subtree": "^0.1.0"
   }
 }
