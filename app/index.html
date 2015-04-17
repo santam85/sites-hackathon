@@ -1,191 +1,196 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Backbase Hackathon 2015</title>
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Backbase Hackathon 2015</title>
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <link rel="stylesheet" href="/bower_components/fontawesome/css/font-awesome.css" />
-    <link rel="stylesheet" href="/bower_components/bootstrap-css-only/css/bootstrap.css" />
-    <!-- endbower -->
-    <!-- endbuild -->
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="/bower_components/fontawesome/css/font-awesome.css"/>
+  <link rel="stylesheet" href="/bower_components/bootstrap-css-only/css/bootstrap.css"/>
+  <!-- endbower -->
+  <!-- endbuild -->
 
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
 
-  </head>
-  <body>
-    <!--[if lt IE 10]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
 
-    <div class="container" id="header">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="images/bb-hackathon-logo.png" alt="Backbase Hackathon"/>
-        </div>
-        <div class="col-md-6">
-          <a href="#apply-now" class="btn btn-danger">Apply now!</a>
-        </div>
+<div class="container" id="header">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="images/bb-hackathon-logo.png" alt="Backbase Hackathon"/>
+    </div>
+    <div class="col-md-6">
+      <a href="#apply" class="btn btn-danger">Apply now!</a>
+    </div>
+  </div>
+</div>
+
+<section class="tiled">
+  <div class="container">
+    <div class="row" id="hero"></div>
+  </div>
+</section>
+
+<section class="grayed">
+  <div class="container">
+    <div class="row" id="description"></div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="row" id="attendance"></div>
+</div>
+
+<section class="grayed">
+  <div class="container">
+    <div class="row" id="prizes"></div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="row" id="agenda-title">
+    <h2>Backbase Hackathon Agenda</h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row" id="agenda"></div>
+</div>
+
+<section class="tiled">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6" id="apply"></div>
+      <div class="col-md-6">
+        <!--<div class="signup-teams cognito">-->
+          <!--<script src="https://services.cognitoforms.com/include/required"></script>-->
+          <!--<script src="https://services.cognitoforms.com/session/script/b7ff82b0-9a63-4b95-9837-86ee3b138b98"></script>-->
+          <!--<script>Cognito.load("forms", { id: "1" });</script>-->
+        <!--</div>-->
       </div>
     </div>
+  </div>
+</section>
 
-    <section class="tiled">
-      <div class="container">
-        <div class="row" id="hero"></div>
+<section class="blackened">
+  <div class="container">
+    <div class="row footer">
+      <div class="col-md-6">
+        <span id="credit"></span>
       </div>
-    </section>
-
-    <section class="grayed">
-      <div class="container">
-        <div class="row" id="description"></div>
+      <div class="col-md-6">
+        <span id="social" class="pull-right"></span>
       </div>
-    </section>
-
-    <div class="container">
-      <div class="row" id="attendance"></div>
     </div>
+  </div>
+</section>
 
-    <section class="grayed">
-      <div class="container">
-        <div class="row" id="prizes"></div>
-      </div>
-    </section>
-
-    <div class="container">
-      <div class="row" id="agenda-title"></div>
+<script id="hero-tmpl" type="text/x-handlebars-template">
+  <div class="col-md-6">
+    <h1>{{h1}}</h1>
+    <p>{{strip-scripts p}}</p>
+    <a href="#apply" class="btn btn-default">Apply now!</a>
+  </div>
+  <div class="col-md-6">
+    <img class="light-bulb" src="images/light-bulb.png" />
+    <div class="skew">
+      <img src="{{imgSrc}}" alt="{{imgAlt}}" />
     </div>
+  </div>
+</script>
 
-    <div class="container">
-      <div class="row" id="agenda"></div>
-    </div>
+<script id="description-tmpl" type="text/x-handlebars-template">
+  <div class="col-md-6">
+    <h2>{{h2}}</h2>
+    <p>{{strip-scripts p}}</p>
+  </div>
+  <div class="col-md-6">
+    <div class="images-wrapper" style="background-image: url('{{imgSrc}}'); height: 365px;"></div>
+  </div>
+</script>
 
-    <section class="tiled">
-      <div class="container">
-        <div class="row" id="apply-now"></div>
-      </div>
-    </section>
+<script id="attendance-tmpl" type="text/x-handlebars-template">
+  <div class="col-md-6">
+    <div class="images-wrapper" style="background-image: url('{{imgSrc}}'); height: 160px;"></div>
+  </div>
+  <div class="col-md-6">
+    <h2>{{h2}}</h2>
+    <p>{{p}}</p>
+  </div>
+</script>
 
-    <section class="blackened">
-      <div class="container">
-        <div class="row footer">
-          <div class="col-md-6">
-            <img src="images/backbase.png" style="float: left" />
-            <span id="credit" class="pull-left"></span>
-          </div>
-          <div class="col-md-6">
-            <span id="footer-social" class="pull-right"></span>
-          </div>
-        </div>
-      </div>
-    </section>
+<script id="prizes-tmpl" type="text/x-handlebars-template">
+  <div class="col-md-6">
+    <h2>{{h2}}</h2>
+    <p>{{p}}</p>
+  </div>
+  <div class="col-md-6" style="text-align: center">
+    <img src="{{imgSrc}}" alt="{{imgAlt}}"/>
+  </div>
+</script>
 
-    <!-- ########################################################################################################### -->
+<script id="agenda-tmpl" type="text/x-handlebars-template">
+  <div class="col-md-2"></div>
+  {{#each this}}
+  <div class="col-md-5">
+    <h3>
+      {{date.title}}: {{date.day}}<sup>{{date.sup}}</sup> {{date.month}}
+    </h3>
+    {{#each events}}
+    <dl>
+      <dt>
+        {{time}}
+      </dt>
+      <dd>{{name}}</dd>
+    </dl>
+    {{/each}}
+  </div>
+  {{/each}}
+</script>
 
-    <script id="hero-tmpl" type="text/x-handlebars-template">
-      <div class="col-md-6">
-        <h1>{{h1}}</h1>
-        <p>{{strip-scripts p}}</p>
-        <a href="#apply-now" class="btn btn-default">Apply now!</a>
-      </div>
-      <div class="col-md-6">
-        <img src="{{imgSrc}}" alt="{{imgAlt}}" class="img-responsive" />
-      </div>
-    </script>
+<script id="apply-tmpl" type="text/x-handlebars-template">
+  <h3>{{h3}}</h3>
+  <p>{{strip-scripts p}}</p>
+</script>
 
-    <script id="description-tmpl" type="text/x-handlebars-template">
-      <div class="col-md-6">
-        <h2>{{h2}}</h2>
-        <p>{{strip-scripts p}}</p>
-      </div>
-      <div class="col-md-6">
-        <img src="{{imgSrc}}" alt="{{imgAlt}}" class="img-responsive" />
-      </div>
-    </script>
+<script id="credit-tmpl" type="text/x-handlebars-template">
+  <img src="images/backbase.png" />
+  <small>{{this}}</small>
+</script>
 
-    <script id="attendance-tmpl" type="text/x-handlebars-template">
-      <div class="col-md-6">
-        <img src="{{imgSrc}}" alt="{{imgAlt}}" class="img-responsive" />
-      </div>
-      <div class="col-md-6">
-        <h2>{{h2}}</h2>
-        <p>{{p}}</p>
-      </div>
-    </script>
+<script id="social-tmpl" type="text/x-handlebars-template">
+  <ul class="footer-social">
+    {{#each this}}
+    <li>
+      <a href="{{href}}" title="{{title}}" target="_blank">
+        <i class="{{faClass}}"></i>
+      </a>
+    </li>
+    {{/each}}
+  </ul>
+</script>
 
-    <script id="prizes-tmpl" type="text/x-handlebars-template">
-      <div class="col-md-6">
-        <h2>{{h2}}</h2>
-        <p>{{p}}</p>
-      </div>
-      <div class="col-md-6" style="text-align: center">
-        <img src="{{imgSrc}}" alt="{{imgAlt}}" />
-      </div>
-    </script>
+<!-- build:js scripts/vendor.js -->
+<!-- bower:js -->
+<script src="/bower_components/handlebars/handlebars.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
 
-    <script id="agenda-title-tmpl" type="text/x-handlebars-template">
-      <h2>{{this}}</h2>
-    </script>
+<!-- build:js scripts/plugins.js -->
+<!-- endbuild -->
 
-    <script id="agenda-tmpl" type="text/x-handlebars-template">
-      <div class="col-md-2"></div>
-      {{#each this}}
-      <div class="col-md-5">
-        <h3>
-          {{date.title}}: {{date.day}}<sup>{{date.sup}}</sup> {{date.month}}
-        </h3>
-        {{#each events}}
-        <dl>
-          <dt>
-            {{time}}</dt>
-          <dd>{{name}}</dd>
-        </dl>
-        {{/each}}
-      </div>
-      {{/each}}
-    </script>
-
-    <script id="apply-now-tmpl" type="text/x-handlebars-template">
-      <div class="col-md-6">
-        <h3>{{h3}}</h3>
-        <p>{{p}}</p>
-      </div>
-      <div class="col-md-6"></div>
-    </script>
-
-    <script id="credit-tmpl" type="text/x-handlebars-template">
-      {{this}}
-    </script>
-
-    <script id="footer-social-tmpl" type="text/x-handlebars-template">
-      <ul class="footer-social">
-        {{#each this}}
-        <li>
-          <a href="{{href}}" title="{{title}}" target="_blank">
-            <i class="{{faClass}}"></i>
-          </a>
-        </li>
-        {{/each}}
-      </ul>
-    </script>
-
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/handlebars/handlebars.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
-
-        <!-- build:js scripts/plugins.js -->
-        <!-- endbuild -->
-
-        <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
+<!-- build:js scripts/main.js -->
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
 </body>
 </html>

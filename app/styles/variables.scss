@@ -1,16 +1,7 @@
 $descr-bg-color   : #ede9e9;
 $descr-fg-color   : gray;
 $footer-bg-color  : #332d2a;
-$footer-fg-color  : rgba(255,255,255,0.4);
 $page-bg-color    : #fff;
 $tile-img-url     : '../images/pinstripe-tile.png';
-
-.tiled-background {
-  color: white;
-  background: $page-bg-color url($tile-img-url) repeat;
-}
-
-.btn {
-  padding: 5px 15px !important;
-}
-
+$bb-red           : #be132d;
+$img-border-color : #d9d1d1;
