@@ -11,32 +11,31 @@
 }
 
 #hero {
-  .col-md-6:nth-child(1) {
-    padding: 20px 0 40px 0;
+  .col-md-6:nth-child(1){
+    padding: 0 15px 20px 15px;
   }
+
   .light-bulb {
     position: absolute;
     z-index: 1000;
-    right: 170px;
+    left: 155px;
     top: 20px;
   }
 
   .skew {
     -webkit-backface-visibility: hidden;
-    -webkit-transform: skew(-10deg, 0);
+    -webkit-transform: skew(-10deg);
     overflow:hidden;
-    width: 450px;
-    height: 289px;
+    width: 440px;
+    height: 250px;
     position:relative;
-    left: 0px;
+    left: 0;
+    img {
+      -webkit-transform: skew(10deg);
+      position:relative;
+      left:-40px;
+    }
   }
-
-  .skew img {
-    -webkit-transform: skew(10deg, 0);
-    position:relative;
-    left:-40px;
-  }
-
 }
 
 #description, #attendance {
@@ -49,6 +48,10 @@
   img {
     padding: 20px 0;
   }
+}
+
+#agenda-title {
+  text-align: center;
 }
 
 #agenda {
@@ -68,12 +71,7 @@
   }
 }
 
-#agenda-title {
-  text-align: center;
-}
-
 .footer {
-
   #credit {
     small {
       color: $descr-fg-color;
@@ -95,5 +93,4 @@
       }
     }
   }
-
 }

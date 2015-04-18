@@ -1,22 +1,15 @@
-// Desktop
-@media screen and (min-width: 768px) {
+// Force max width to 960px
+@media (min-width:992px)  { .container{ width:960px } }
+@media (min-width:1200px) { .container{ width:960px } }
 
-  .container {
-    max-width: 1024px;
-  }
-
-}
-
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-
+// Small Devices, Tablets
+@media screen and (min-width: 768px) and (max-width: 991px)  {
   #agenda {
-    .col-md-5 {
+    .col-md-4 {
       width: 50% !important;
       float: left;
     }
   }
-
   #header {
     .col-md-6 {
       width: 50% !important;
@@ -24,13 +17,11 @@
       text-align: right;
     }
   }
-
   #hero, #description, #prizes, #attendance {
     img, .images-wrapper, .skew {
       display: none;
     }
   }
-
   .footer {
     img {
       display: none;
@@ -44,19 +35,16 @@
       }
     }
   }
-
 }
 
-/* Landscape phone to portrait tablet */
+// Landscape phone to portrait tablet
 @media (max-width: 767px) {
-
   #agenda {
-    .col-md-5 {
+    .col-md-4 {
       width: 50% !important;
       float: left;
     }
   }
-
   #header {
     .col-md-6:nth-child(1){
       text-align: center;
@@ -66,29 +54,14 @@
       text-align: center;
     }
   }
-
   #hero, #description, #prizes, #attendance {
+    text-align: center;
     img, .images-wrapper, .skew {
       display: none;
     }
   }
-
-  #hero, #description, #prizes, #attendance  {
-    text-align: center;
-  }
-
-  #hero {
-    p {
-      padding: 20px 20px;
-    }
-  }
-
-  #apply {
-    text-align: center;
-  }
-
   .footer {
-    img, .images-wrapper {
+    img {
       display: none;
     }
     .col-md-6 {
@@ -100,5 +73,4 @@
       }
     }
   }
-
 }
