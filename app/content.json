@@ -1,13 +1,13 @@
 {
   "hero": {
     "h1": "Hack the system & win awesome prizes!",
-    "p": "A 2-day chance in Amsterdam to network, learn and share knowledge with your peers next <b>19th and 20th of June 2015.</b>",
+    "p": "Welcome to the 2015 Backbase Hackathon in Amsterdam and online, a two-day chance to network, learn and share knowledge with your peers next <b>19th and 20th of June 2015.</b>",
     "imgSrc": "images/bg-blurred-code.png",
     "imgAlt": "Apply now!"
   },
   "description": {
     "h2": "Mission: Disrupt the banking industry!",
-    "p": "The Backbase Hackathon is hosting developers from all around the world, providing an opportunity to create new application concepts to shake up the banking industry. This is achieved by combining technologies and making small, yet significant dents in some of the most difficult problems, in whatever language, in whatever framework, in whatever development stack, and time is your only enemy. It’s a unique opportunity to delve into open APIs and technologies to create new applications for banking customers (and other businesses). <br /><br /> The game is on! Are you in?",
+    "p": "The Backbase Hackathon is hosting developers from all Backbase locations, providing an opportunity to create new application concepts to shake up the banking industry. This is achieved by combining technologies and making small, yet significant dents in some of the most difficult problems, in whatever language, in whatever framework, in whatever development stack, and time is your only enemy. It’s a unique opportunity to delve into open APIs and technologies to create new applications for banking customers (and other businesses). <br /><br /> The game is on! Are you in?",
     "imgSrc": "images/description.png",
     "imgAlt": "Mobile #1!"
   },
