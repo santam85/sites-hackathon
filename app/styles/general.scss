@@ -18,6 +18,7 @@ section {
     }
   }
   &.grayed {
+    padding: 30px 0;
     h2 {
       color: $footer-bg-color;
       opacity: 0.9;
@@ -26,6 +27,9 @@ section {
       color: $descr-fg-color;
     }
     background-color: $descr-bg-color;
+  }
+  &.whited {
+    padding: 30px 0;
   }
 }
 
