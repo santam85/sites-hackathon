@@ -13,13 +13,13 @@
   },
   "attendance": {
     "h2": "Who can attend?",
-    "p": "That's easy: any Backbaser who is up for challenge! The aim is to compete, so we can innovate together and move digital banking forwards.<p>No matter if you are coming alone or as an exisiting team... We want you there!</p>",
+    "p": " We’re looking for a creative mix of Backbase employees and nearshore partners for the two-day Hackathon – coders, designers and entrepreneurs!</p>",
     "imgSrc": "images/hackathon-team.png",
     "imgAlt": "Backbasers hacking a bank"
   },
   "prizes": {
     "h2": "Prizes",
-    "p": "<p>Apart from eternal glory, a picture of the wining team placed on the wall of our offices, there will also be some amazing prizes for the winning teams.</p><p>More details are forthcoming.</p>",
+    "p": "<p>Apart from eternal glory and a picture of the winning team placed on our office wall, there will be some amazing prizes for the winning teams.</p><p>More details to come soon.</p>",
     "imgSrc": "images/medal.png",
     "imgAlt": "Eternal glory is all."
   },
