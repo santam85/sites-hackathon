@@ -1,5 +1,5 @@
 - [ ] Add Robert's new description
 - [ ] Add 'Judging criteria' section
-- [ ] Add new sponsor Levi9
+- [X] Add new sponsor Levi9
 - [X] Spaces in 'tiled' sections
 - [ ] Anti-aliased font 

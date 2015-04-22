@@ -30,6 +30,17 @@
       padding-top: 0 ;
     }
   }
+  #sponsors{
+    .sponsor-images {
+      text-align: center;
+      a {
+        img {
+          opacity: 1; /* css standard */
+          filter: alpha(opacity=100); /* internet explorer */
+        }
+      }
+    }
+  }
   .footer {
     img {
       display: none;
@@ -74,6 +85,17 @@
   .signup-teams {
     &.cognito {
       padding-top: 0 ;
+    }
+  }
+  #sponsors{
+    .sponsor-images {
+      text-align: center;
+      a {
+        img {
+          opacity: 1; /* css standard */
+          filter: alpha(opacity=100); /* internet explorer */
+        }
+      }
     }
   }
   .footer {
