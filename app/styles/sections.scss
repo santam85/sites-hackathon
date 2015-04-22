@@ -12,14 +12,14 @@
 
 #hero {
   .col-md-6:nth-child(1){
-    padding: 0 15px 20px 15px;
+    padding: 20px 15px 45px 15px;
   }
 
   .light-bulb {
     position: absolute;
     z-index: 1000;
     left: 155px;
-    top: 20px;
+    top: 45px;
   }
 
   .skew {
@@ -27,7 +27,7 @@
     -webkit-transform: skew(-10deg);
     overflow:hidden;
     width: 440px;
-    height: 273px;
+    height: 317px;
     position:relative;
     left: 0;
     img {
@@ -55,7 +55,7 @@
 }
 
 #agenda {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   dl {
     text-align: left;
     margin-bottom: 10px;
@@ -69,6 +69,10 @@
       color: $descr-fg-color;
     }
   }
+}
+
+#apply{
+  padding: 25px 15px 40px 15px;
 }
 
 .footer {

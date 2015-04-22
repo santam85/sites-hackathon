@@ -22,6 +22,14 @@
       display: none;
     }
   }
+  #apply {
+    padding-bottom: 0;
+  }
+  .signup-teams {
+    &.cognito {
+      padding-top: 0 ;
+    }
+  }
   .footer {
     img {
       display: none;
@@ -58,6 +66,14 @@
     text-align: center;
     img, .images-wrapper, .skew {
       display: none;
+    }
+  }
+  #apply {
+    padding-bottom: 0;
+  }
+  .signup-teams {
+    &.cognito {
+      padding-top: 0 ;
     }
   }
   .footer {
