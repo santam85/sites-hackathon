@@ -1,5 +1,6 @@
-- [ ] Add Robert's new description
+- [ ] Add more space below sponsor's logo
 - [ ] Add 'Judging criteria' section
+- [ ] Add Robert's new description
 - [X] Add new sponsor Levi9
 - [X] Spaces in 'tiled' sections
 - [ ] Anti-aliased font 
