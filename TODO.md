@@ -1,6 +1,8 @@
-- [ ] Add more space below sponsor's logo
-- [ ] Add 'Judging criteria' section
-- [ ] Add Robert's new description
 - [X] Add new sponsor Levi9
 - [X] Spaces in 'tiled' sections
+- [ ] Add more space below sponsor's logo
+- [ ] Gulpify handlebar's templates with [this](https://github.com/philmander/gulp-hbs)
+- [ ] Add 'Judging criteria' section
+- [ ] Add 'Need inspiration?' section
+- [ ] Add Robert's new description
 - [ ] Anti-aliased font 
