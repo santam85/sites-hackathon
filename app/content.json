@@ -130,5 +130,44 @@
       "title": "Youtube",
       "faClass": "fa fa-youtube"
     }
+  ],
+  "judgment": [
+    {
+      "title": "WOW FACTOR (25%)",
+      "description": "Does your product make the judges go 'WOW!'?",
+      "icon": "glyphicon glyphicon-plus"
+    },
+    {
+      "title": "IMPACT (25%)",
+      "description": "Does it solve a real problem for millions of people?",
+      "icon": "glyphicon glyphicon-plus"
+    },
+    {
+      "title": "INNOVATION (25%)",
+      "description": "Did you think out of the box?",
+      "icon": "glyphicon glyphicon-plus"
+    },
+    {
+      "title": "FEASIBILITY (25%)",
+      "description": "Could it succeed in the market?",
+      "icon": "glyphicon glyphicon-plus"
+    }
+  ],
+  "rules": [
+    {
+      "title": "NO POWERPOINT",
+      "description": "You must present a live demo of your hack.",
+      "icon": "glyphicon glyphicon-plus"
+    },
+    {
+      "title": "FRESH CODE",
+      "description": "You must present a brand new product or feature that didn’t exist before.",
+      "icon": "glyphicon glyphicon-plus"
+    },
+    {
+      "title": "TEAM SIZE",
+      "description": "Up to 5 humans per team. Each team may also have one robot or supernatural power.",
+      "icon": "glyphicon glyphicon-plus"
+    }
   ]
 }
