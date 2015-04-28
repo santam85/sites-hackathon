@@ -169,5 +169,26 @@
       "description": "Up to 5 humans per team. Each team may also have one robot or supernatural power.",
       "icon": "glyphicon glyphicon-plus"
     }
-  ]
+  ],
+  "inspiration": {
+    "h2": "Need some inspiration?",
+    "subtitle": "Just in case you are stuck for ideas on what to develop at the Backbase Hackathon, here are a few areas to consider and get your creative juices flowing...",
+    "ideas": [
+      {
+        "title": "Idea 1",
+        "description": "Description Idea 1",
+        "imageUrl": ""
+      },
+      {
+        "title": "Idea 2",
+        "description": "Description Idea 2",
+        "imageUrl": ""
+      },
+      {
+        "title": "Idea 3",
+        "description": "Description Idea 3",
+        "imageUrl": ""
+      }
+    ]
+  }
 }
