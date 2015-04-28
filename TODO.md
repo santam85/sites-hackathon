@@ -4,5 +4,5 @@
 - [ ] Gulpify handlebar's templates with [this](https://github.com/philmander/gulp-hbs)
 - [ ] Add 'Judging criteria' section
 - [ ] Add 'Need inspiration?' section
-- [ ] Add Robert's new description
+- [ ] Add new description with new 3 scopes
 - [ ] Anti-aliased font 
