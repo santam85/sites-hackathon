@@ -1,7 +1,5 @@
 'use strict';
 
-// TODO use Handlebars.js templates as precompiled JS files
-
 (function(){
 
   // Spit HTML coming from contents.json
@@ -26,9 +24,10 @@
   // Main
   _loadJSON('content.json', function (sections) {
     Object.keys(sections).forEach(function(section){
-      var tmpl = Handlebars.compile(document.getElementById(section + '-tmpl').innerHTML);
-      document.getElementById(section).innerHTML = tmpl(sections[section]);
+      var tmpl = MyApp.templates[section + '-tmpl'];
+      if (tmpl) {
+        document.getElementById(section).innerHTML = tmpl(sections[section]);
+      }
     });
   });
-
 })();
