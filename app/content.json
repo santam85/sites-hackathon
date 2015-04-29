@@ -28,7 +28,8 @@
       "date": {
         "title": "Day 1",
         "day": 19,
-        "month": "June",
+        "month": "Jun",
+        "year": "2015",
         "sup": "th"
       },
       "events": [
@@ -58,7 +59,8 @@
       "date": {
         "title": "Day 2",
         "day": 20,
-        "month": "June",
+        "month": "Jun",
+        "year": "2015",
         "sup": "th"
       },
       "events": [

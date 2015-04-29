@@ -7,6 +7,27 @@
     return new Handlebars.SafeString(context);
   });
 
+  // Countdown
+  function timeLeft(target_date) {
+    var current_date = new Date().getTime(),
+        seconds_left = (target_date - current_date) / 1000,
+        result = {
+          days: 0,
+          hours: 0,
+          minutes: 0,
+          seconds: 0
+        };
+
+    result.days = parseInt(seconds_left / 86400);
+    seconds_left = seconds_left % 86400;
+    result.hours = parseInt(seconds_left / 3600);
+    seconds_left = seconds_left % 3600;
+    result.minutes = parseInt(seconds_left / 60);
+    result.seconds = parseInt(seconds_left % 60);
+
+    return result;
+  }
+
   // Get JSON
   function _loadJSON(url, callback) {
     var xobj = new XMLHttpRequest();
@@ -28,6 +49,20 @@
       if (tmpl) {
         document.getElementById(section).innerHTML = tmpl(sections[section]);
       }
+
+      // Timer
+      var startDate = sections.agenda.day1.date;
+      var target_date = new Date(startDate.month + ', ' + startDate.day + ', ' + startDate.year).getTime();
+      var countdown = document.getElementById('countdown');
+
+      setInterval(function () {
+        var tl = timeLeft(target_date);
+        countdown.innerHTML = tl.days +  ' days ' +
+                              tl.hours + ' hours ' +
+                              tl.minutes + ' minutes and ' +
+                              tl.seconds + ' seconds';
+      }, 500);
     });
   });
+
 })();
