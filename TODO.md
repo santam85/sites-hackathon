@@ -4,5 +4,5 @@
 - [X] Gulpify handlebar's templates 
 - [ ] Add 'Judging criteria' section
 - [ ] Add 'Need inspiration?' section
-- [ ] Add Robert's new description
+- [ ] Add new description with new 3 scopes
 - [ ] Anti-aliased font 
