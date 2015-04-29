@@ -75,7 +75,7 @@ gulp.task('extras', function () {
 
 gulp.task('clean', require('del').bind(null, ['.tmp', 'dist']));
 
-gulp.task('serve', ['styles'], function () {
+gulp.task('serve', ['templates', 'styles'], function () {
   browserSync({
     notify: false,
     port: 9000,
