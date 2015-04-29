@@ -14,3 +14,8 @@ Deploy to ```gh-pages``` branch:
 ```
 gulp deploy
 ```
+
+### Contribute
+
+Check this [TODO](https://github.com/Backbase/sites-hackathon/blob/master/TODO.md) list.
+
