@@ -23,6 +23,38 @@
     "imgSrc": "images/medal.png",
     "imgAlt": "Eternal glory is all."
   },
+  "goals": {
+    "title": "What can I do?",
+    "p": "asfsaf",
+    "goals": [
+      {
+        "title": "Free mode (you perform all the magic, with basic help if required)",
+        "rules": [
+          "We will deliver a set of APIs so people can hack on top of them",
+          "We will deliver our own API (Breeze, used in sales to demo with customers)",
+          "Standalone model, too (no APIs and no products – just frameworks, libraries, coffee and pizza)."
+        ]
+      },
+      {
+        "title": "Backbase CXP (we allow BB products, with you building on top of them)",
+        "rules": [
+          "You’re free to use forms.",
+          "You can use any portal.",
+          "You can make use of any Backbase tools."
+        ]
+      },
+      {
+        "title": "Use of tooling around Backbase products, for instance ...",
+        "rules": [
+          "Make use of command line tools",
+          "Use dashboards that display internal statistics",
+          "Make use of intranet tools (to fill the time tracker based on your browser history)",
+          "git/stash/jira, or any other extension for any of our systems."
+        ]
+      }
+    ],
+    "final_p": "There are so many more things you can probably think of. Just be creative, and leave the provision of food and timekeeping to us (because that’s what we’re good at)."
+  },
   "agenda": {
     "day1": {
       "date": {
