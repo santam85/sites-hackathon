@@ -149,12 +149,12 @@
     },
     {
       "title": "INNOVATION (25%)",
-      "description": "Did you think out of the box?",
+      "description": "Is it completely new to the market?",
       "icon": "glyphicon glyphicon-plus"
     },
     {
       "title": "FEASIBILITY (25%)",
-      "description": "Could it succeed in the market?",
+      "description": "Could it be productized easily?",
       "icon": "glyphicon glyphicon-plus"
     }
   ],
@@ -166,7 +166,7 @@
     },
     {
       "title": "FRESH CODE",
-      "description": "You must present a brand new product or feature that didn’t exist before.",
+      "description": "You must present a new thing that didn’t exist before or drastically improve one.",
       "icon": "glyphicon glyphicon-plus"
     },
     {
@@ -180,18 +180,18 @@
     "subtitle": "Just in case you are stuck for ideas on what to develop at the Backbase Hackathon, here are a few areas to consider and get your creative juices flowing...",
     "ideas": [
       {
-        "title": "Idea 1",
-        "description": "Description Idea 1",
+        "title": "Stock Tracker",
+        "description": "Use the Backbase Mobile SDK to create a new stock tracker app that visualizes how pepole look at their portfolio in a completely different way.",
         "imageUrl": ""
       },
       {
-        "title": "Idea 2",
-        "description": "Description Idea 2",
+        "title": "Analytics Power!",
+        "description": "Add a new Analytics App to CXP Manager 5.6 that consumes the most needed reports from Google Analytics, in real time.",
         "imageUrl": ""
       },
       {
-        "title": "Idea 3",
-        "description": "Description Idea 3",
+        "title": "Bank 10.0",
+        "description": "Vizualize how the Bank of The Future would look like and create a Launchpad Theme to make it real. Inspiration? Look at http://bbfab.s3-website-us-east-1.amazonaws.com/ ",
         "imageUrl": ""
       }
     ]
