@@ -55,13 +55,15 @@
       var target_date = new Date(startDate.month + ', ' + startDate.day + ', ' + startDate.year).getTime();
       var countdown = document.getElementById('countdown');
 
-      setInterval(function () {
-        var tl = timeLeft(target_date);
-        countdown.innerHTML = tl.days +  ' days ' +
-                              tl.hours + ' hours ' +
-                              tl.minutes + ' minutes and ' +
-                              tl.seconds + ' seconds';
-      }, 500);
+      if (countdown) {
+        setInterval(function () {
+          var tl = timeLeft(target_date);
+          countdown.innerHTML = tl.days +  ' days ' +
+          tl.hours + ' hours ' +
+          tl.minutes + ' minutes and ' +
+          tl.seconds + ' seconds';
+        }, 500);
+      };
     });
   });
 

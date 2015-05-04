@@ -24,8 +24,8 @@
     "imgAlt": "Eternal glory is all."
   },
   "goals": {
-    "title": "What can I do?",
-    "p": "asfsaf",
+    "h2": "Competition scopes",
+    "p": "You can basically compete in one of these categories:",
     "goals": [
       {
         "title": "Free mode (you perform all the magic, with basic help if required)",
