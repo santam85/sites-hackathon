@@ -104,6 +104,7 @@
         filter: alpha(opacity=60); /* internet explorer */
       }
       &:hover {
+        text-decoration: none;
         img {
           opacity: 1; /* css standard */
           filter: alpha(opacity=100); /* internet explorer */

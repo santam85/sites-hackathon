@@ -142,7 +142,14 @@
         "imgSrc": "images/sponsors/levi9.jpg",
         "imgAlt": "Levi9 - IT Services",
         "href": "http://www.levi9.com/"
+      },
+      {
+        "name": "Gecko",
+        "imgSrc": "images/sponsors/gecko.jpg",
+        "imgAlt": "Gecko Solutions - We know IT",
+        "href": "http://www.gecko.rs/"
       }
+
     ]
   },
   "credit": "© 2015 Backbase. All rights reserved.",
