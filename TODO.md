@@ -1,8 +1,0 @@
-- [X] Add new sponsor Levi9
-- [X] Spaces in 'tiled' sections
-- [ ] Add more space below sponsor's logo
-- [X] Gulpify handlebar's templates 
-- [ ] Add 'Judging criteria' section
-- [ ] Add 'Need inspiration?' section
-- [ ] Add new description with new 3 scopes
-- [ ] Anti-aliased font 
