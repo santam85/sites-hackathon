@@ -48,7 +48,7 @@
         "rules": [
           "Make use of command line tools",
           "Use dashboards that display internal statistics",
-          "Make use of intranet tools (to fill the time tracker based on your browser history)",
+          "Make use of internal tools (to fill the time tracker based on your browser history)",
           "git/stash/jira, or any other extension for any of our systems."
         ]
       }
