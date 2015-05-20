@@ -148,6 +148,12 @@
         "imgSrc": "images/sponsors/gecko.jpg",
         "imgAlt": "Gecko Solutions - We know IT",
         "href": "http://www.gecko.rs/"
+      },
+      {
+        "name": "JetBrains",
+        "imgSrc": "images/sponsors/jetbrains.gif",
+        "imgAlt": "JetBrains- Develop with Pkeasure",
+        "href": "https://www.jetbrains.com"
       }
 
     ]
