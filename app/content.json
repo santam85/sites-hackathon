@@ -13,13 +13,19 @@
   },
   "attendance": {
     "h2": "Who can attend?",
-    "p": " We’re looking for a creative mix of Backbase employees and (nearshore) partners for the two-day Hackathon – coders, designers and entrepreneurs!</p>",
+    "p": "We’re looking for a creative mix of Backbase employees and (nearshore) partners for the two-day Hackathon – coders, designers and entrepreneurs!",
     "imgSrc": "images/hackathon-team.png",
     "imgAlt": "Backbasers hacking a bank"
   },
   "prizes": {
     "h2": "Prizes",
-    "p": "<p>Apart from eternal glory and a picture of the winning team placed on our office wall, there will be some amazing prizes for the winning teams.</p><p>More details to come soon.</p>",
+    "p":
+      "<p>Apart from eternal glory and a picture of the winning team placed on our office wall, there will be some amazing prizes for the winning teams.</p>",
+    "dl1": "<dt>Grand Winner of the Backbase 2015 Hackathon<dd>Wow factor, impact, innovation, feasibility",
+    "dl2": "<dt>Lesser-but-nothing-short-of-Grand Winner<dd>Great accomplishment, very impressive, but still short of that one overwhelming sparkle",
+    "dl3": "<dt>Fireworks Factor<dd>Very Creative, out of the box, not very feasible but still very impressive",
+    "dl4": "<dt>Pink Panther<dd>Murphy's Law, great commitment but not able to execute because of bad luck",
+    "dl5": "<dt>Circus Act<dd>High Entertainment value. Period.",
     "imgSrc": "images/medal.png",
     "imgAlt": "Eternal glory is all."
   },

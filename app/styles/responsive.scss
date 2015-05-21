@@ -98,6 +98,18 @@
       }
     }
   }
+  #prizes {
+    dl {
+      padding-left: 0;
+      &:before {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin: 0 auto 0.5em;
+
+      }
+    }
+  }
   .footer {
     img {
       display: none;
