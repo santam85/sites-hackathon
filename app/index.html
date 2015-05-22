@@ -55,23 +55,26 @@
 
   <section class="grayed">
     <div class="container">
-      <div class="row" id="prizes"></div>
+      <div class="row" id="judgment"></div>
     </div>
   </section>
 
   <section class="whited">
     <div class="container">
-      <div class="row" id="agenda-title">
-        <h2>Agenda</h2>
-      </div>
+      <div class="row" id="prizes"></div>
     </div>
   </section>
 
-  <div class="container">
-    <div class="row" id="agenda"></div>
-  </div>
-
   <section class="grayed">
+    <div class="container">
+      <div class="row" id="agenda-title">
+        <h2>Agenda</h2>
+      </div>
+      <div class="row" id="agenda"></div>
+    </div>
+  </section>
+
+  <section class="whited">
     <div class="container">
       <div class="row" id="goals"></div>
     </div>
@@ -117,7 +120,6 @@
     </div>
   </section>
 
-  <div id="judgment"></div>
   <div id="rules"></div>
   <div id="inspiration"></div>
 
@@ -130,10 +132,6 @@
   <!-- build:js scripts/plugins.js -->
   <!-- endbuild -->
 
-  <!-- build:js scripts/main.js -->
-  <script src="scripts/main.js"></script>
-  <!-- endbuild -->
-
   <!-- build:js templates/templates.js -->
   <script src="templates/agenda-tmpl.js"></script>
   <script src="templates/apply-tmpl.js"></script>
@@ -142,10 +140,15 @@
   <script src="templates/goals-tmpl.js"></script>
   <script src="templates/description-tmpl.js"></script>
   <script src="templates/hero-tmpl.js"></script>
+  <script src="templates/judgment-tmpl.js"></script>
   <script src="templates/prizes-tmpl.js"></script>
   <script src="templates/social-tmpl.js"></script>
   <script src="templates/sponsors-tmpl.js"></script>
   <script src="templates/survey-tmpl.js"></script>
+  <!-- endbuild -->
+
+  <!-- build:js scripts/main.js -->
+  <script src="scripts/main.js"></script>
   <!-- endbuild -->
 
 </body>

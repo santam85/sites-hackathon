@@ -1,1 +1,11 @@
-<span></span>
+<div class="col-md-12">
+  <h2>{{strip-scripts h2}}</h2>
+  <div class="row">
+    {{#each criteria}}
+    <div class="col-md-6 criteria">
+      <h4>{{strip-scripts title}}</h4>
+      <p>{{strip-scripts description}}</p>
+    </div>
+    {{/each}}
+  </div>
+</div>
