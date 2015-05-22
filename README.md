@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/Backbase/sites-hackathon.png?label=ready&title=Ready)](https://waffle.io/Backbase/sites-hackathon)
 # Backbase Hackathon 2015 site
 
 Install:
