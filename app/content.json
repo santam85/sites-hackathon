@@ -187,28 +187,31 @@
       "faClass": "fa fa-youtube"
     }
   ],
-  "judgment": [
-    {
-      "title": "WOW FACTOR (25%)",
-      "description": "Does your product make the judges go 'WOW!'?",
-      "icon": "glyphicon glyphicon-plus"
-    },
-    {
-      "title": "IMPACT (25%)",
-      "description": "Does it solve a real problem for millions of people?",
-      "icon": "glyphicon glyphicon-plus"
-    },
-    {
-      "title": "INNOVATION (25%)",
-      "description": "Is it completely new to the market?",
-      "icon": "glyphicon glyphicon-plus"
-    },
-    {
-      "title": "FEASIBILITY (25%)",
-      "description": "Could it be productized easily?",
-      "icon": "glyphicon glyphicon-plus"
-    }
-  ],
+  "judgment": {
+    "h2": "Judgment Criteria",
+    "criteria": [
+      {
+        "title": "WOW Factor (25%)",
+        "description": "Does your product make the judges go 'WOW!'?",
+        "icon": "glyphicon glyphicon-plus"
+      },
+      {
+        "title": "Impact (25%)",
+        "description": "Does it solve a real problem for millions of people?",
+        "icon": "glyphicon glyphicon-plus"
+      },
+      {
+        "title": "Innovation (25%)",
+        "description": "Is it completely new to the market?",
+        "icon": "glyphicon glyphicon-plus"
+      },
+      {
+        "title": "Feasibility (25%)",
+        "description": "Could it be productized easily?",
+        "icon": "glyphicon glyphicon-plus"
+      }
+    ]
+  },
   "rules": [
     {
       "title": "NO POWERPOINT",
