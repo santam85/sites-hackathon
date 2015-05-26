@@ -160,6 +160,12 @@
         "imgSrc": "images/sponsors/jetbrains.png",
         "imgAlt": "JetBrains- Develop with Pkeasure",
         "href": "https://www.jetbrains.com"
+      },
+      {
+        "name": "ITgma",
+        "imgSrc": "images/sponsors/itgma.png",
+        "imgAlt": "ITgma helps the companies to rethink",
+        "href": "http://www.itgma.com/"
       }
 
     ]
