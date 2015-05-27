@@ -1,6 +1,8 @@
-'use strict';
+/* global Handlebars */
 
 (function(){
+
+  'use strict';
 
   // Spit HTML coming from contents.json
   Handlebars.registerHelper('strip-scripts', function(context) {
@@ -53,12 +55,17 @@
       // Timer
       var startDate = sections.agenda.day1.date;
       var target_date = new Date(startDate.month + ', ' + startDate.day + ', ' + startDate.year).getTime();
-      var countdown = document.getElementById('countdown');
+      var countdownTimer = document.getElementById('countdown-clock');
+      var countdownCounter = document.getElementById('countdown');
 
-      if (countdown) {
+      if (countdownCounter && countdownTimer) {
         setInterval(function () {
           var tl = timeLeft(target_date);
-          countdown.innerHTML = tl.days +  ' days ' +
+          countdownCounter.innerHTML = tl.days +  ' days ' +
+          tl.hours + ' hours ' +
+          tl.minutes + ' minutes and ' +
+          tl.seconds + ' seconds';
+          countdownTimer.innerHTML = tl.days +  ' days ' +
           tl.hours + ' hours ' +
           tl.minutes + ' minutes and ' +
           tl.seconds + ' seconds';
