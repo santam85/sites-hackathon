@@ -241,19 +241,17 @@
     "ideas": [
       {
         "title": "Stock Tracker",
-        "description": "Use the Backbase Mobile SDK to create a new stock tracker app that visualizes how pepole look at their portfolio in a completely different way.",
-        "imageUrl": ""
+        "description": "Use the Backbase Mobile SDK to create a new stock tracker app that visualizes how pepole look at their portfolio in a completely different way."
       },
       {
         "title": "Analytics Power!",
-        "description": "Add a new Analytics App to CXP Manager 5.6 that consumes the most needed reports from Google Analytics, in real time.",
-        "imageUrl": ""
+        "description": "Add a new Analytics App to CXP Manager 5.6 that consumes the most needed reports from Google Analytics, in real time."
       },
       {
         "title": "Bank 10.0",
-        "description": "Vizualize how the Bank of The Future would look like and create a Launchpad Theme to make it real. Inspiration? Look at http://bbfab.s3-website-us-east-1.amazonaws.com/ ",
-        "imageUrl": ""
+        "description": "Vizualize how the Bank of The Future would look like and create a Launchpad Theme to make it real. <a href=\"http://bbfab.s3-website-us-east-1.amazonaws.com/\">Inspiration?</a>"
       }
-    ]
+    ],
+    "footer": "<span style=\"text-align: center\">... and many more!</span>"
   }
 }
