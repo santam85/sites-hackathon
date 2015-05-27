@@ -65,10 +65,10 @@
           tl.hours + ' hours ' +
           tl.minutes + ' minutes and ' +
           tl.seconds + ' seconds';
-          countdownTimer.innerHTML = tl.days +  ' days ' +
-          tl.hours + ' hours ' +
-          tl.minutes + ' minutes and ' +
-          tl.seconds + ' seconds';
+          countdownTimer.innerHTML = '<span>' + tl.days +  ' days</span>' +
+          '<span>' + tl.hours + ' hours</span>' +
+          '<span>' + tl.minutes + ' minutes</span>' +
+          '<span>' + tl.seconds + ' seconds</span>';
         }, 500);
       };
     });
