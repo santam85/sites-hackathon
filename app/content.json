@@ -40,7 +40,7 @@
         "title": "Free mode (you perform all the magic, with basic help if required)",
         "rules": [
           "We will deliver a set of APIs so people can hack on top of them",
-          "We will deliver our own API (Breeze, used in sales to demo with customers)",
+          "We offer our <a href=\"https://backbase.atlassian.net/wiki/pages/viewpage.action?spaceKey=BRZDMO&title=Backbase+Demo+Archetype+How+To\" target=\"_blank\">Breeze API</a> (the one you already know)",
           "Standalone model, too (no APIs and no products – just frameworks, libraries, coffee and pizza)."
         ]
       },
