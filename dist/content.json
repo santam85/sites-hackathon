@@ -5,9 +5,6 @@
     "imgSrc": "images/bg-blurred-code.png",
     "imgAlt": "Apply now!"
   },
-  "eta": {
-    "p": "Time left until the hackathon to organize:"
-  },
   "description": {
     "h2": "Mission: Disrupt the banking industry!",
     "p": "The Backbase Hackathon is hosting developers from all Backbase locations, providing an opportunity to create new application concepts to shake up the banking industry. This is achieved by combining technologies and making small, yet significant dents in some of the most difficult problems, in whatever language, in whatever framework, in whatever development stack, and time is your only enemy. It’s a unique opportunity to delve into open APIs and technologies to create new applications for banking customers (and other businesses). <br /><br /> The game is on! Are you in?",
@@ -16,31 +13,25 @@
   },
   "attendance": {
     "h2": "Who can attend?",
-    "p": "We’re looking for a creative mix of Backbase employees and (nearshore) partners for the two-day Hackathon – coders, designers and entrepreneurs!",
+    "p": " We’re looking for a creative mix of Backbase employees and (nearshore) partners for the two-day Hackathon – coders, designers and entrepreneurs!</p>",
     "imgSrc": "images/hackathon-team.png",
     "imgAlt": "Backbasers hacking a bank"
   },
   "prizes": {
     "h2": "Prizes",
-    "p":
-      "<p>Apart from eternal glory and a picture of the winning team placed on our office wall, there will be some amazing prizes for the winning teams.</p>",
-    "dl1": "<dt>Grand Winner of the Backbase 2015 Hackathon<dd>Wow factor, impact, innovation, feasibility",
-    "dl2": "<dt>Lesser-but-nothing-short-of-Grand Winner<dd>Great accomplishment, very impressive, but still short of that one overwhelming sparkle",
-    "dl3": "<dt>Fireworks Factor<dd>Very Creative, out of the box, not very feasible but still very impressive",
-    "dl4": "<dt>Pink Panther<dd>Murphy's Law, great commitment but not able to execute because of bad luck",
-    "dl5": "<dt>Circus Act<dd>High Entertainment value. Period.",
+    "p": "<p>Apart from eternal glory and a picture of the winning team placed on our office wall, there will be some amazing prizes for the winning teams.</p><p>More details to come soon.</p>",
     "imgSrc": "images/medal.png",
     "imgAlt": "Eternal glory is all."
   },
   "goals": {
-    "h2": "Competition scopes",
-    "p": "You can basically compete in one of these categories:",
+    "title": "What can I do?",
+    "p": "asfsaf",
     "goals": [
       {
         "title": "Free mode (you perform all the magic, with basic help if required)",
         "rules": [
           "We will deliver a set of APIs so people can hack on top of them",
-          "We offer our <a href=\"https://backbase.atlassian.net/wiki/pages/viewpage.action?spaceKey=BRZDMO&title=Backbase+Demo+Archetype+How+To\" target=\"_blank\">Breeze API</a> (the one you already know)",
+          "We will deliver our own API (Breeze, used in sales to demo with customers)",
           "Standalone model, too (no APIs and no products – just frameworks, libraries, coffee and pizza)."
         ]
       },
@@ -57,7 +48,7 @@
         "rules": [
           "Make use of command line tools",
           "Use dashboards that display internal statistics",
-          "Make use of internal tools (to fill the time tracker based on your browser history)",
+          "Make use of intranet tools (to fill the time tracker based on your browser history)",
           "git/stash/jira, or any other extension for any of our systems."
         ]
       }
@@ -151,26 +142,7 @@
         "imgSrc": "images/sponsors/levi9.jpg",
         "imgAlt": "Levi9 - IT Services",
         "href": "http://www.levi9.com/"
-      },
-      {
-        "name": "Gecko",
-        "imgSrc": "images/sponsors/gecko.jpg",
-        "imgAlt": "Gecko Solutions - We know IT",
-        "href": "http://www.gecko.rs/"
-      },
-      {
-        "name": "JetBrains",
-        "imgSrc": "images/sponsors/jetbrains.png",
-        "imgAlt": "JetBrains- Develop with Pkeasure",
-        "href": "https://www.jetbrains.com"
-      },
-      {
-        "name": "ITgma",
-        "imgSrc": "images/sponsors/itgma.png",
-        "imgAlt": "ITgma helps the companies to rethink",
-        "href": "http://www.itgma.com/"
       }
-
     ]
   },
   "credit": "© 2015 Backbase. All rights reserved.",
@@ -196,31 +168,28 @@
       "faClass": "fa fa-youtube"
     }
   ],
-  "judgment": {
-    "h2": "Judgment Criteria",
-    "criteria": [
-      {
-        "title": "WOW Factor (25%)",
-        "description": "Does your product make the judges go 'WOW!'?",
-        "icon": "fa fa-4x fa-diamond"
-      },
-      {
-        "title": "Impact (25%)",
-        "description": "Does it solve a real problem for millions of people?",
-        "icon": "fa fa-4x fa-bomb"
-      },
-      {
-        "title": "Innovation (25%)",
-        "description": "Is it completely new to the market?",
-        "icon": "fa fa-4x fa-line-chart"
-      },
-      {
-        "title": "Feasibility (25%)",
-        "description": "Could it be productized easily?",
-        "icon": "fa fa-4x fa-cog"
-      }
-    ]
-  },
+  "judgment": [
+    {
+      "title": "WOW FACTOR (25%)",
+      "description": "Does your product make the judges go 'WOW!'?",
+      "icon": "glyphicon glyphicon-plus"
+    },
+    {
+      "title": "IMPACT (25%)",
+      "description": "Does it solve a real problem for millions of people?",
+      "icon": "glyphicon glyphicon-plus"
+    },
+    {
+      "title": "INNOVATION (25%)",
+      "description": "Is it completely new to the market?",
+      "icon": "glyphicon glyphicon-plus"
+    },
+    {
+      "title": "FEASIBILITY (25%)",
+      "description": "Could it be productized easily?",
+      "icon": "glyphicon glyphicon-plus"
+    }
+  ],
   "rules": [
     {
       "title": "NO POWERPOINT",
@@ -244,17 +213,19 @@
     "ideas": [
       {
         "title": "Stock Tracker",
-        "description": "Use the Backbase Mobile SDK to create a new stock tracker app that visualizes how pepole look at their portfolio in a completely different way."
+        "description": "Use the Backbase Mobile SDK to create a new stock tracker app that visualizes how pepole look at their portfolio in a completely different way.",
+        "imageUrl": ""
       },
       {
         "title": "Analytics Power!",
-        "description": "Add a new Analytics App to CXP Manager 5.6 that consumes the most needed reports from Google Analytics, in real time."
+        "description": "Add a new Analytics App to CXP Manager 5.6 that consumes the most needed reports from Google Analytics, in real time.",
+        "imageUrl": ""
       },
       {
         "title": "Bank 10.0",
-        "description": "Vizualize how the Bank of The Future would look like and create a Launchpad Theme to make it real. <a href=\"http://bbfab.s3-website-us-east-1.amazonaws.com/\">Inspiration?</a>"
+        "description": "Vizualize how the Bank of The Future would look like and create a Launchpad Theme to make it real. Inspiration? Look at http://bbfab.s3-website-us-east-1.amazonaws.com/ ",
+        "imageUrl": ""
       }
-    ],
-    "footer": "<span style=\"text-align: center\">... and many more!</span>"
+    ]
   }
 }

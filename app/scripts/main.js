@@ -46,32 +46,35 @@
 
   // Main
   _loadJSON('content.json', function (sections) {
-    Object.keys(sections).forEach(function(section){
-      var tmpl = MyApp.templates[section + '-tmpl'];
-      if (tmpl) {
-        document.getElementById(section).innerHTML = tmpl(sections[section]);
-      }
+    document.addEventListener("DOMContentLoaded", function() {
+      Object.keys(sections).forEach(function(section){
+        var tmpl = MyApp.templates[section + '-tmpl'];
+        if (tmpl) {
+          document.getElementById(section).innerHTML = tmpl(sections[section]);
+        }
 
-      // Timer
-      var startDate = sections.agenda.day1.date;
-      var target_date = new Date(startDate.month + ', ' + startDate.day + ', ' + startDate.year).getTime();
-      var countdownTimer = document.getElementById('countdown-clock');
-      var countdownCounter = document.getElementById('countdown');
+        // Timer
+        var startDate = sections.agenda.day1.date;
+        var target_date = new Date(startDate.month + ', ' + startDate.day + ', ' + startDate.year).getTime();
+        var countdownTimer = document.getElementById('countdown-clock');
+        var countdownCounter = document.getElementById('countdown');
 
-      if (countdownCounter && countdownTimer) {
-        setInterval(function () {
-          var tl = timeLeft(target_date);
-          countdownCounter.innerHTML = tl.days +  ' days ' +
-          tl.hours + ' hours ' +
-          tl.minutes + ' minutes and ' +
-          tl.seconds + ' seconds';
-          countdownTimer.innerHTML = '<span>' + tl.days +  ' days</span>' +
-          '<span>' + tl.hours + ' hours</span>' +
-          '<span>' + tl.minutes + ' minutes</span>' +
-          '<span>' + tl.seconds + ' seconds</span>';
-        }, 500);
-      };
+        if (countdownCounter && countdownTimer) {
+          setInterval(function () {
+            var tl = timeLeft(target_date);
+            countdownCounter.innerHTML = tl.days +  ' days ' +
+              tl.hours + ' hours ' +
+              tl.minutes + ' minutes and ' +
+              tl.seconds + ' seconds';
+            countdownTimer.innerHTML = '<span>' + tl.days +  ' days</span>' +
+              '<span>' + tl.hours + ' hours</span>' +
+              '<span>' + tl.minutes + ' minutes</span>' +
+              '<span>' + tl.seconds + ' seconds</span>';
+          }, 500);
+        };
+      });
+
+      document.getElementsByTagName("body")[0].style.display=null;
     });
   });
-
 })();
