@@ -40,7 +40,7 @@
         "title": "Free mode (you perform all the magic, with basic help if required)",
         "rules": [
           "We will deliver a set of APIs so people can hack on top of them",
-          "We offer our <a href=\"https://backbase.atlassian.net/wiki/pages/viewpage.action?spaceKey=BRZDMO&title=Backbase+Demo+Archetype+How+To\" target=\"_blank\">Breeze API</a> (the one you already know)",
+          "We offer our <a href=\"https://backbase.atlassian.net/wiki/pages/viewpage.action?spaceKey=BRZDMO&title=Backbase+Demo+Archetype+How+To\" target=\"_blank\">Breeze API</a> (the pre-made full model you already know )",
           "Standalone model, too (no APIs and no products – just frameworks, libraries, coffee and pizza)."
         ]
       },
@@ -252,9 +252,33 @@
       },
       {
         "title": "Bank 10.0",
-        "description": "Vizualize how the Bank of The Future would look like and create a Launchpad Theme to make it real. <a href=\"http://bbfab.s3-website-us-east-1.amazonaws.com/\">Inspiration?</a>"
+        "description": "Visualize how the Bank of The Future would look like and create a Launchpad Theme to make it real. <a href=\"http://bbfab.s3-website-us-east-1.amazonaws.com/\" target=\"_blank\">Inspiration?</a>"
       }
     ],
     "footer": "<span style=\"text-align: center\">... and many more!</span>"
+  },
+  "apis": {
+    "h2": "APIs you might want to use",
+    "subtitle": "A micro-startup ecosystem is created per team in the 1st Backbase Hackathon. In order to support the needs of this small businesses we provide a versatile base for allowing integrations with your favorite frameworks and tools.",
+    "ideas": [
+      {
+        "title": "<a href=\"https://www.openbankproject.com/for-developers/\" target=\"_blank\">Open Bank Project</a>",
+        "description": "Want to develop a financial application which accesses bank account transactions? The Open Bank Project offers an easy-to-use RESTful JSON API. Connect in minutes and start using it. <a href=\"https://apisandbox.openbankproject.com/obp/v1.0/banks\">Here</a> you can access their sandbox!"
+      },
+      {
+        "title": "<a href=\"https://www.enclout.com/\" target=\"_blank\">EnClout</a>",
+        "description": "Give a list of stock symbols, this API returns stock data using Yahoo Finance!"
+      },
+      {
+        "title": "<a href=\"http://www.xignite.com/\" target=\"_blank\">xignite</a>",
+        "description": "Xinite empowers the future of finance with a large set of financial market data API right in the cloud as real time quotes, extended loans and wide etcetera. Check an <a href=\"http://www.xignite.com/product/real-time-stock-quotes-data/api/GetRealQuotes/\" target=\"_blank\">example on how to get real quotes</a>."
+      },
+      {
+        "title": "<a href=\"http://catalog.data.gov/\" target=\"_blank\">Data.gov (opendata)</a>",
+        "description": "The home of the U.S. Government’s open data. Here you will find data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, and more. Explore hundreds of free data sets on financial services, including banking, lending, retirement, investments, and insurance. Start using these data sets to build new financial products and services, such as apps that help financial consumers and new models to help make loans to small businesses."
+      }
+    ],
+    "footer": "<p style=\"text-align: center\">Still not satisfied? Not a problem! It's always easy to scrape the data you need! Just <a href=\"mailto:hackatho+apiproposal@backbase.com\" target=\"_blank\">drop us your ideas or any question</a>. We'll be glad to cook together with you!</p> "
   }
+
 }
